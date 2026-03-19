@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE     = "YOUR_DOCKERHUB_USERNAME/devops-ci-cd-demo"
+        DOCKER_IMAGE     = "rajkumarasam/devops-ci-cd-demo"
         DOCKER_TAG       = "${env.BUILD_NUMBER}"
         DOCKER_LATEST    = "latest"
         K8S_NAMESPACE    = "devops-demo"
