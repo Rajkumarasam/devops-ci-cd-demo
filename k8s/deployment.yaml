@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: devops-demo-app
-          image: YOUR_DOCKERHUB_USERNAME/devops-ci-cd-demo:latest
+          image: rajkumarasam/devops-ci-cd-demo:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
